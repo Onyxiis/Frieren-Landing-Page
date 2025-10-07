@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #2b001e;
+}
+.character-name{
+  font-family: Oswald,Arial;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header-section{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.Frieren-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.Frieren-background .background{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+}
+.Frieren-solo{
+  position:absolute;
+  z-index: 100;
+  bottom: 0px;
+  width: 1250px;
+}
+.Frieren-solo .Frieren{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Frieren-logo{
+ position: absolute;
+ top: 50px;
+ z-index: 101;
+ width: 600px;
+}
+.Frieren-logo .logo{
+  width: 100%;
+  height: auto;
+
+}
+
+.Main-characters{
+  color: white;
+  font-family: Oswald,Arial;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
+}
+.character-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 20px;
+  row-gap: 16px;
+}
+
+.character-card{
+    border:5px solid #69004a;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 200px;
+}
+.character-card img{
+  width: 100%;
+  display: block;
+  height: 300px;
+
+}
+.character-name{
+   background-color: #69004a;
+    color:white;
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+}
+.gallery-redirection{
+  color: rgb(255, 255, 255);
+  font-family: Oswald,Arial;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
+  
+}
+
