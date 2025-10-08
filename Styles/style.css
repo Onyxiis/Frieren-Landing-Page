@@ -76,6 +76,7 @@ body{
 }
 
 .character-card{
+    position: relative;
     border:5px solid #69004a;
     border-radius:20px;
     overflow:hidden;
@@ -86,6 +87,8 @@ body{
   width: 100%;
   display: block;
   height: 300px;
+  position: relative;
+  z-index: 1;
 
 }
 .character-name{
@@ -94,6 +97,8 @@ body{
     text-align: center;
     padding: 8px;
     font-size: 25px;
+    position: relative;
+    z-index: 3;
 }
 .gallery-redirection a{
   color: white ;
