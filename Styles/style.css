@@ -82,11 +82,12 @@ body{
     overflow:hidden;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     width: 200px;
+    flex-shrink: 0;
 }
 .character-card img{
-  width: 100%;
-  display: block;
+  width: 200px;
   height: 300px;
+  display: block;
   position: relative;
   z-index: 1;
 
