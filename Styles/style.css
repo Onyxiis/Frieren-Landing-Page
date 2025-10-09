@@ -2,8 +2,9 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #2b001e;
+  background-color: rgb(9, 0, 59);
 }
+
 .character-name{
   font-family: Oswald,Arial;
   font-size: 20px;
@@ -18,6 +19,28 @@ body{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+.header-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.6) 100%);
+  z-index: 102;
+  pointer-events: none;
+}
+.header-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, transparent 0%, rgba(9, 0, 59, 0.7) 70%, #09003b 100%);
+  z-index: 102;
+  pointer-events: none;
 }
 .Frieren-background{
   position: absolute;
