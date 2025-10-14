@@ -6,10 +6,10 @@
 .image-row{
   display: flex;
   gap: 16px;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 90s linear infinite;
 }
 .image-row:nth-child(2){
-  animation: scroll-right 40s linear infinite;
+  animation: scroll-right 90s linear infinite;
 }
 .flowing-images img{
   width: 200px;
