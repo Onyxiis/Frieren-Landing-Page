@@ -14,13 +14,13 @@
   bottom: -5px;
   left: 0;
   transform: scaleX(0);
-  transform-origin: right;
+  transform-origin: center;
   transition: transform 0.3s ease-out;
 }
 
 .gallery-ref::before {
   top: -5px;
-  transform-origin: left;
+  
 }
 
 .gallery-ref:hover::after,

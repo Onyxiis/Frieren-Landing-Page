@@ -49,12 +49,12 @@ body{
   bottom: -5px;
   left: 0;
   transform: scaleX(0);
-  transform-origin: right;
+  transform-origin: center;
   transition: transform 0.3s ease-out;
 }
 .title::before{
   top: -5px;
-  transform-origin: left;
+  
 }
 .title:hover::after,
 .title:hover::before{
