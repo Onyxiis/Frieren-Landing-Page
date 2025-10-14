@@ -21,26 +21,23 @@ body{
   transition:transform 0.4s;
 }
 .images img:hover{
-  transform: scale(2);
+  transform: scale(1.5);
 }
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(9, 0, 59);
+  background-color: rgb(9, 0, 59);
   height: 150px;
+  position: relative;
 }
 .title{
-  position: relative;
-  display: inline-block;
-  font-family: Oswald,Arial;
-  font-size: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding: 20px;
-  
+ position: relative;
+ display: inline-block;
+ font-family: Oswald,Arial;
+ font-size: 50px;
+ color: white;
+ padding: 20px;
 }
 .title::after,
 .title::before{
@@ -62,4 +59,15 @@ body{
 .title:hover::after,
 .title:hover::before{
   transform: scaleX(1);
+}
+.main-page-redirection{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;  
+  width: 200px;
+  height: 100px;
+  transition: filter .7s;
+}
+#logo-glow:hover{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255) );
 }
