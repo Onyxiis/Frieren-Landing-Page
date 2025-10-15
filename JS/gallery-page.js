@@ -1,4 +1,4 @@
-const gridimages = [
+const gallimages = [
   '04b0d2d86a6ef6cda78864d8343e6194.jpg',
   '08b397c963e3a8e8dc7b1bc7b17931ad.jpg',
   '091472f1ecb725e6ac371faea4ffbebe.jpg',
@@ -28,9 +28,9 @@ const gridimages = [
   'ef41e736c2956ad6eb10118971300b29.jpg'
 ];
 
-const gallery = document.getElementById('grid');
+const gallery = document.getElementById('gall');
 
-gridimages.forEach(img => {
+gallimages.forEach(img => {
   const imgEl = document.createElement('img');
   imgEl.src = `imgs/Gallery/${img}`;
   imgEl.alt = 'Frieren gallery image';
