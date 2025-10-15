@@ -31,3 +31,15 @@
     opacity: 1;
   }
 }
+.main-page-redirection{
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: fadeInUp 1.5s ease forwards;
+  animation-delay: 0.3s;
+}
+.title{
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: fadeInDown 1.5s ease forwards;
+  animation-delay: 0.5s ;
+}

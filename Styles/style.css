@@ -86,7 +86,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 50px;
+  margin-bottom: 30px;
 }
 .character-cards{
   display: flex;
@@ -106,11 +106,14 @@ body{
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     width: 200px;
     flex-shrink: 0;
+    text-decoration: none;
+    display: block;
 }
 .character-card img{
-  width: 200px;
+  width: 100%;
   height: 300px;
   display: block;
+  object-fit: cover;
   position: relative;
   z-index: 1;
 
@@ -123,6 +126,8 @@ body{
     font-size: 25px;
     position: relative;
     z-index: 3;
+    font-family: Oswald,Arial;
+    font-weight: 500;
 }
 .gallery-redirection a{
   color: white ;
@@ -134,8 +139,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 50px;
-  text-decoration: none;
+  margin-bottom: 30px;
 }
 .gallery-section{
   padding: 40px 0;
